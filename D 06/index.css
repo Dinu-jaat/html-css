@@ -1,0 +1,8 @@
+.main {
+    width: 100%;
+    height: max-content;
+    border: 6px double black;
+    box-sizing: border-box;
+    padding: 15px 15px 0px 15px;
+    box-shadow: 3px 1px 5px 1px inset;
+}
