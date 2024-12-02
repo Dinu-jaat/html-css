@@ -406,3 +406,237 @@ ul{
     padding-top: 5px;
     text-align: center;
 }
+
+.middle-right{
+    width: 850px;
+    min-height: 750px;
+    float: right;
+}
+.page-status{
+    width: 96%;
+    height: 30px;
+    padding: 15px;
+    background: white;
+    margin-bottom: 15px;
+}
+.page-status h1{
+    width: 300px;
+    height: 30px;
+    float: left;
+    color: #343130;
+}
+.page-status h2{
+    float: right;
+    color: #343130;
+}
+.page-status h2 i{
+    cursor: pointer;
+    color: #00A8EC;
+}
+.about-content p{
+    margin-top: 22px;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+.course-contect{
+    width: 850px;
+    height: 760px;
+    padding: 10px 30px 0px 30px;
+}
+.row1{
+    width: 800px;
+    height: 250px;
+}
+.course-1{
+    width: 210px;
+    height: 230px;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.course-2{
+    width: 210px;
+    height: 230px;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.course-1-icon{
+    width: 210px;
+    height: 140px;
+    padding-top: 20px;
+}
+.icon-1{
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.icon-2{
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.icon-3{
+    width: 87px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.icon-4{
+    width: 87px;
+    height: 90px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.icon-5{
+    width: 87px;
+    height: 90px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.icon-7{
+    width: 83px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.icon-8{
+    width: 87px;
+    height: 85px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 12px;
+    padding-top: 15px;
+}
+.icon-9{
+    width: 87px;
+    height: 90px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.c-1{
+    padding: 5px 0px 5px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: #e6611c;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #e6611c solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-2{
+    padding: 15px 0px 5px 0px;
+    background: white;
+    height: 40px;
+    width: 208px;
+    color: #7bb1e0;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #7bb1e0 solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-3{
+    padding: 15px 0px 5px 0px;
+    background: white;
+    height: 40px;
+    width: 208px;
+    color: #5e5da4;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #5e5da4 solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-4{
+    padding: 5px 0px 5px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: #308a7c;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #308a7c solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-5{
+    padding: 5px 0px 5px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: #89c222;
+    font-size: 22px;
+    text-align: center;
+    border: 1px #89c222 solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-6{
+    padding: 4px 0px 5px 0px;
+    background: white;
+    height: 52px;
+    width: 208px;
+    color: #d60726;
+    font-size: 24px;
+    text-align: center;
+    border: 1px #d60726 solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-7{
+    padding: 10px 0px 5px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: #5e5da4;
+    font-size: 23px;
+    text-align: center;
+    border: 1px #5e5da4 solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-8{
+    padding: 13px 0px 3px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: #e6611c;
+    font-size: 23px;
+    text-align: center;
+    border: 1px #e6611c solid;
+    border-radius: 0px 0px 5px 5px;
+}
+.c-9{
+    padding: 13px 0px 3px 0px;
+    background: white;
+    height: 50px;
+    width: 208px;
+    color: darkgreen;
+    font-size: 24px;
+    text-align: center;
+    border: 1px darkgreen solid;
+    border-radius: 0px 0px 5px 5px;
+}
