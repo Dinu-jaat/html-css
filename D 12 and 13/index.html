@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            width: 700px;
+            height: 800px;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-left: 50px;
+        }
+
+        .group {
+            font-size: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        input,button,select {
+            width: 80%;
+            padding: 10px;
+        }
+        button{
+            background-color: lightblue;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="group">
+            <label>Name :- </label>
+            <input type="text" name="Username" placeholder="Your Name">
+        </div>
+
+
+        <div class="group">
+            <label>Email :- </label>
+            <input type="email" name="email" placeholder="Email">
+        </div>
+
+
+        <div class="group">
+            <label>City :- </label>
+            <select name="City">
+                <option value="">Select</option>
+                <option value="Jodhpur">Jodhpur</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Kota">Kota</option>
+                <option value="Ajmer">Ajmer</option>
+                <option value="Jhunjhunu">Jhunjhunu</option>
+            </select>
+        </div>
+
+
+        <div class="group">
+            <label>Gender :-</label>
+            <input name="Gender" type="radio">
+            <label for="">Male</label>
+            <input name="Gender" type="radio">
+            <label for="">Female</label>
+            <input name="Gender" type="radio">
+            <label for="">Other</label>
+        </div>
+
+
+        <div class="group">
+            <label for="">Address :-</label>
+            <textarea name="Address"></textarea>
+        </div>
+
+
+        <div class="group">
+            <label>Password :- </label>
+            <input type="password" name="password" placeholder="Password">
+        </div>
+
+
+        <div class="group">
+            <label>Age</label>
+            <input min="18" max="84" type="number" name="number">
+        </div>
+
+
+        <div class="group">
+            <label>Colour</label>
+            <input name="Colour" type="color">
+        </div>
+
+
+        <div class="group">
+            <label for="">Date</label>
+            <input name="date" type="date">
+            <input type="time" name="time">p
+        </div>
+
+
+        <div class="group">
+            <label for="">Image</label>
+            <input type="file">
+        </div>
+
+
+        <div class="group">
+            <label for="">Range</label>
+            <input type="range">
+        </div>
+
+
+        <button>Reset</button>
+
+
+        <button>Submit</button>
+
+
+    </form>
+</body>
+
+</html>
