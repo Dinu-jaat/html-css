@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <header>
@@ -48,7 +50,7 @@
                 </div>
             </div>
         </header>
-        <div class="middle-container" style="height: 735px;">
+        <div class="middle-container" style="height: 815px;">
             <div class="middle-left">
                 <div class="menu-item-left">
                     <a href="index.html">Home</a>
@@ -72,7 +74,7 @@
                     <div class="middle-left-buttom-news">News</div>
                     <ul class="news-list">
                         <li>
-                            <img src="Image/dot.jpg"> ipsum dolor sit amet 
+                            <img src="Image/dot.jpg"> ipsum dolor sit amet
                         </li>
                         <li>
                             <img src="Image/dot.jpg"> ipsum dolor sit amet
@@ -96,6 +98,116 @@
                         <i onclick="window.location.href = 'index.html'">Home /</i> Enquiry
                     </h2>
                 </div>
+                <form>
+                    <div class="formrow">
+                        <div class="formlable">Gender :</div>
+                        <div class="inputform">
+                            <div>
+                                <input type="radio" name="sex" id="male"> Male
+                                <input type="radio" name="sex" id="female"> Female
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Name :</div>
+                        <div class="inputform">
+                            <div>
+                                <input type="text" name="name" id="name" class="inputbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Contact No :</div>
+                        <div class="inputform">
+                            <div>
+                                <input type="number" name="number" id="number" class="inputbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Country :</div>
+                        <div class="inputform">
+                            <div>
+                                <select name="Country" id="Country">
+                                    <option value="">---Select---</option>
+                                    <option value="1">India</option>
+                                    <option value="2">USA</option>
+                                    <option value="3">Australia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">State :</div>
+                        <div class="inputform">
+                            <div>
+                                <select name="State" id="State">
+                                    <option value="">---Select---</option>
+                                    <option value="1">Rajasthan</option>
+                                    <option value="2">Maharastra</option>
+                                    <option value="3">Punjab</option>
+                                    <option value="4">Kerla</option>
+                                    <option value="5">New York</option>
+                                    <option value="6">Malbourne</option>
+                                    <option value="7">Syndey</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">City :</div>
+                        <div class="inputform">
+                            <div>
+                                <select name="City" id="City">
+                                    <option value="">---Select---</option>
+                                    <option value="1">Jodhpur</option>
+                                    <option value="2">Jaipur</option>
+                                    <option value="3">Mumbai</option>
+                                    <option value="4">Jhunjhunu</option>
+                                    <option value="5">Kota</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Address :</div>
+                        <div class="inputform">
+                            <div>
+                                <textarea name="Address" id="Address" class="textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Email :</div>
+                        <div class="inputform">
+                            <div>
+                                <input name="Email" id="Email" class="inputbox"></input>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">Enquiry :</div>
+                        <div class="inputform">
+                            <div>
+                                <textarea name="Enquiry" id="Enquiry" class="textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <div class="formlable">
+                            <input type="Submit" Value="Send" class="button"></input>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="footer">
@@ -198,4 +310,5 @@
         </div>
     </div>
 </body>
+
 </html>

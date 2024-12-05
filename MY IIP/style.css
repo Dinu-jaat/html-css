@@ -640,3 +640,47 @@ ul{
     border: 1px darkgreen solid;
     border-radius: 0px 0px 5px 5px;
 }
+
+
+.formrow{
+    margin-bottom: 20px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.formlable{
+    float: left;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inputform{
+    font-size: 12px;
+    color: #5b5b5b;
+}
+.inputbox{
+    width: 200px;
+    height: 30px;
+    color: #5b5b5b;
+    padding-left: 5px;
+    font-family: Verdana;
+}
+.textarea{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    color: #5b5b5b;
+    font-family: Verdana;
+}
+.button{
+    background-color: #09f;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+}
