@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box
+        }
+
+        .main {
+            width: 600px;
+            height: 550px;
+            margin: auto;
+            margin-top: 100px;
+            transition: 500ms;
+        }
+
+        .overlay {
+            width: 600px;
+            height: 400px;
+            left: 340px;
+            opacity: 0;
+            transition: 300ms;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .main:hover .overlay {
+            opacity: 1;
+        }
+
+        img {
+            width: 600px;
+            height: 400px;
+        }
+
+        .content {
+            width: 600px;
+            height: 130px;
+            position: absolute;
+            border-radius: 10px 10px 0px 0px;
+            margin-top: 10px;
+            transition: 500ms;
+            background-color: rgba(0, 0, 0, 0.1);
+            justify-content: space-between;
+        }
+
+        .main:hover .content {
+            top: 360px;
+            z-index: 2;
+            background-color: rgba(255, 255,255,0.8);
+        }
+
+        .title {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 5px;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .overview {
+            padding-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        p {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <div class="overlay"></div>
+            <div>
+                <img src="image.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="title">
+                <h4>Image of Nature</h4>
+                <h5>Rating : 9.9</h5>
+            </div>
+            <div class="info">
+                <div class="overview">Overview :</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet laudantium ullam
+                    consectetur, magni
+                    labore quod libero maxime. Aperiam tempore facere natus officiis quam, voluptatibus consequuntur qui
+                    sit
+                    expedita aliquam.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

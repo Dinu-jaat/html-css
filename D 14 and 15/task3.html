@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 800px;
+            height: 800px;
+            margin: 50px auto;
+            overflow: hidden;
+            border: 2px solid green;
+            top: 0;
+            left: 0;
+            background-color: bisque;
+            position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            transition: 800ms;
+            border: 2px solid red;
+            position: absolute;
+        }
+        .box:nth-child(1){
+            top: 0;
+            left: 0;
+            background-color: blueviolet;
+        }
+        .box:nth-child(2){
+            top: 0;
+            left: 600px;
+            background-color: blueviolet;
+        }
+        .box:nth-child(3){
+            top: 600px;
+            left: 600px;
+            background-color: blueviolet;
+        }
+        .box:nth-child(4){
+            top: 600px;
+            left: 0;
+            background-color: blueviolet;
+        }
+        .main:hover .box:nth-child(1){
+            top: 600px;
+            left: 600px;
+            background-color: aqua;
+        }
+        .main:hover .box:nth-child(2){
+            top: 600px;
+            left: 0;
+            background-color: aqua;
+        }
+        .main:hover .box:nth-child(3){
+            top: 0;
+            left: 0;
+            background-color: aqua;
+        }
+        .main:hover .box:nth-child(4){
+            top: 0;
+            left: 600px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+</html>

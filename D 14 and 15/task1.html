@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 800px;
+            height: 500px;
+            margin: 100px auto;
+            overflow: hidden;
+            display: flex;
+            border: 2px solid red;
+            position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            transition: 500ms;
+            background-color: green;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .container:hover .box{
+            left: 600px;
+            color: aqua;
+        }
+        .box:nth-child(2){
+            top: 0;
+            background-color: red;
+            left: 600px;
+            z-index: -1;
+        }
+        .container:hover .box:nth-child(2){
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+</body>
+</html>
