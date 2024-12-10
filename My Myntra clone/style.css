@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body {
+    font-family: "Assistant", sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    position: fixed;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+}
+
+.logo {
+    width: 53px;
+    height: 36px;
+    margin-top: 23px;
+    margin-left: 27px;
+    background-image: url('./images/MyntraWebSprite_27_01_2021.png');
+    background-size: 1404px 105px;
+    background-position: -462px 0;
+    cursor: pointer;
+    color: none;
+}
+
+.container {
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+nav {
+    width: 516px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    letter-spacing: .3px;
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 700;
+}
+
+.mega-menu {
+    width: 100%;
+    top: 80px;
+    height: 436px;
+    border: 2px solid blue;
+    position: absolute;
+    transition: 300ms;
+    left: -40px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.item:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.item:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.second-side{
+    width: 600px;
+    display: flex;
+}
+
+.search {
+    width: 360px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .04);
+}
+
+.search i{
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.search input{
+    width: 280px;
+    height: 100%;
+    outline: none;
+    background-color: rgba(0, 0, 0, .00);
+    border: none;
+}
+
+.action {
+    width: 194px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    justify-content: space-around;
+}
+
+.action-1{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-size: 1440px 92px;
+    background-position: -308px -49px;
+}
+
+.action-2{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-size: 1440px 92px;
+    background-position: -322px -70px;
+}
+
+.action-3{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/MyntraWebSprite_27_01_2021.png);
+    background-size: 1440px 92px;
+    background-position: -352px -49px;
+}
+
