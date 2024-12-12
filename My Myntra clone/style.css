@@ -20,6 +20,8 @@ header {
     height: 80px;
     display: flex;
     margin: auto;
+    background-color: white;
+    z-index: 10;
     position: fixed;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
 }
@@ -55,27 +57,122 @@ nav {
 }
 
 .item {
+    height: 100%;
+    display: flex;
+    align-items: center;
     letter-spacing: .3px;
     font-size: 14px;
     color: #282c3f;
     font-weight: 700;
 }
 
+.item:nth-child(6) sup {
+    position: absolute;
+    top: 28px;
+    left: 518px;
+}
+
 .mega-menu {
     width: 100%;
-    top: 80px;
+    top: 200px;
     height: 436px;
-    border: 2px solid blue;
     position: absolute;
     transition: 300ms;
-    left: -40px;
+    font-size: 14px;
+    left: -45px;
     opacity: 0;
+    background-color: #fff;
     visibility: hidden;
 }
 
+.mega-menu-list{
+    padding-top: 4px;
+    display: flex;
+    position: relative;
+}
+
+.first{
+    width: 20%;
+    height: 436px;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.first ul li {
+    font-size: 14px;
+    list-style: none;
+    color: #000;
+}
+.desktop-categoryName {
+    text-transform: capitalize;
+    color: #3e4152;
+    padding: 12px 0 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.mega-menu ul li:hover{
+    font-size: 16px;
+}
+
 .item:hover .mega-menu {
+    top: 78px;
     opacity: 1;
     visibility: visible;
+}
+
+.mega-menu-2 {
+    width: 514px;
+    margin: 20px 220.9px 0px 221px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-weight: 600;
+    pointer-events: none;
+    position: fixed;
+    background-color: #fff;
+    transition: 200ms;
+}
+
+.mega-menu-2 span {
+    width: 100%;
+    height: 22px;
+    margin: 9.5px 110px 0 120px;
+    font-size: 14px;
+    line-height: 1.38;
+    /* text-align: center; */
+    color: #535766;
+}
+
+.mega-menu-2 img {
+    width: 103.094px;
+    height: 50px;
+    padding: none;
+    background-color: #fff;
+    margin: 0px 220.9px 0px 211px;
+}
+
+.mm-img {
+    width: 514px;
+    height: 274px;
+}
+
+.mm-img img {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 30px 0px 0px 0px;
+}
+
+.item:hover .mega-menu-2 {
+    visibility: visible;
+    opacity: 1;
+    top: 60px;
 }
 
 .item:hover {
@@ -83,7 +180,14 @@ nav {
     text-decoration: underline;
 }
 
-.second-side{
+.section{
+    width: 140px;
+    height: 1px;
+    margin: 12px 0 12px 0;
+    background-color: #eaeaec;
+}
+
+.second-side {
     width: 600px;
     display: flex;
 }
@@ -98,14 +202,14 @@ nav {
     background-color: rgba(0, 0, 0, .04);
 }
 
-.search i{
+.search i {
     color: rgba(0, 0, 0, .5);
     font-size: 14px;
     padding-left: 12px;
     padding-top: 12px;
 }
 
-.search input{
+.search input {
     width: 280px;
     height: 100%;
     outline: none;
@@ -124,7 +228,7 @@ nav {
     justify-content: space-around;
 }
 
-.action-1{
+.action-1 {
     width: 20px;
     height: 20px;
     background-image: url(./images/MyntraWebSprite_27_01_2021.png);
@@ -132,7 +236,7 @@ nav {
     background-position: -308px -49px;
 }
 
-.action-2{
+.action-2 {
     width: 20px;
     height: 20px;
     background-image: url(./images/MyntraWebSprite_27_01_2021.png);
@@ -140,7 +244,7 @@ nav {
     background-position: -322px -70px;
 }
 
-.action-3{
+.action-3 {
     width: 20px;
     height: 20px;
     background-image: url(./images/MyntraWebSprite_27_01_2021.png);
@@ -148,3 +252,63 @@ nav {
     background-position: -352px -49px;
 }
 
+section {
+    width: 100%;
+}
+
+.flat500off {
+    width: 1064px;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.banner50of {
+    width: 1064px;
+    height: 280px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.imgs {
+    width: 1065px;
+    height: 130px;
+    display: flex;
+    margin: auto;
+}
+
+.image {
+    height: 100%;
+    width: 355px;
+}
+
+.discount {
+    width: 152px;
+    height: 16px;
+}
+
+.l1 {
+    width: 1065;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    margin-left: 100px;
+}
+
+.l2 {
+    width: 1065;
+    height: 280px;
+    display: flex;
+    margin-left: 280px;
+}
+
+.l1img {
+    width: 213px;
+    height: 278px;
+}
