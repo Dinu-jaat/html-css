@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .card{
+            width: 350px;
+            height: 450px;
+            border: 2px solid red;
+            margin: 5px auto;
+            position: relative;
+        }
+        .card img{
+            width: 100%;
+            height: 100%;
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: scale(0);
+            transition: 500ms;
+        }
+        .white{
+            background-color: rgba(255, 255,255, 0.2);
+            transform: scale(1);
+        }
+        .black{
+            background-color: rgba(0, 0,0, 0.3);
+            transform: scale(0);
+        }
+        .card:hover .white{
+            transform: scale(0);
+        }
+        .card:hover .black{
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="	https://www.bagteshfashion.com/public/storage/uploads/images/homepage/3.jpg" alt="">
+        <div class="overlay white"></div>
+        <div class="overlay black"></div>
+    </div>
+</body>
+</html>

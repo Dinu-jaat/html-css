@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 800px;
+            height: 600px;
+            border: 2px solid blue;
+            position: relative;
+            margin: 30px auto;
+            overflow: hidden;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            animation-name: move;
+            animation-duration: 4s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move{
+            0%,100% {
+                top: 0;
+                left: 0;
+                background-color: black;
+                border-radius: 15%;
+                transform: rotate(0deg);
+            }
+            25% {
+                top: 0;
+                left: 700px;
+                background-color: aqua;
+                border-radius: 30%;
+                transform: rotate(90deg);
+            }
+            50%{
+                top: 500px;
+                left: 700px;
+                background-color: blue;
+                border-radius: 50%;
+                transform: rotate(180deg);
+            }
+            75%{
+                top: 500px;
+                left: 0;
+                background-color: green;
+                border-radius: 30%;
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

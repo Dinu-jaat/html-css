@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: none;
+            margin: none;
+            text-decoration: none;
+        }
+        .outer{
+            width: 200px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 200px auto;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            background-color: gold;
+            position: relative;
+        }
+        .outer:hover .inner{
+            transform: scaleX(0);
+        }
+        .inner{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 10px;
+            left: 0;
+            top: 0;
+            background-color: white;
+            transition: 1s;
+        }
+        .inner-text{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 10px;
+            left: 13px;
+            top: 0;
+            transition: 1s;
+            display: flex;
+            align-items: center;
+        }
+        .outer:hover .inner-text{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+        <div class="inner-text">SHOP COLLECTION</div>
+    </div>
+</body>
+</html>
