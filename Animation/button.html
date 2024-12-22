@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%;
+        }
+        .main{
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+        }
+        .button{
+            width: 150px;
+            margin: auto;
+            height: 50px;
+            background-color: red;
+            border-radius: 205px;
+            position: relative;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .layer{
+            width: 150px;
+            height: 50px;
+            position: absolute;
+            border-radius: 20px;
+            left: 565px;
+            top: 20px;
+            background-color: rgba(222, 51, 35, 0.3);
+            animation: scale 2s infinite linear;
+        }
+        @keyframes scale{
+            0%,100%{
+                transform: scale(1, 1);
+            }
+            50%{
+                transform: scale(1.5, 1.4);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="button">Enquire Now</div>
+        <div class="layer"></div>
+    </div>
+</body>
+</html>

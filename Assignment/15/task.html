@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 10px 25px;
+            background-color: red;
+            position: fixed;
+            right: -46px;
+            border: none;
+            top: 30%;
+            color: white;
+            transform: rotate(90deg);
+        }
+        .main{
+            width: 300px;
+            height: 300px;
+            margin: 10px auto;
+            border: 4px solid red;
+            position: relative;
+        }
+        .img1{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            transition: 2s;
+            border-radius: 50%;
+            z-index: 2;
+        }
+        .main:hover .img1{
+            transform: rotateX(360deg);
+        }
+        .img2{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            transition: 2s;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .main:hover .img2{
+            transform: rotateZ(360deg);
+        }
+        .img3{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 50%;
+            transition: 2s;
+        }
+        .main:hover .img3{
+            transform: rotateX(360deg);
+        }
+    </style>
+</head>
+<body>
+    <button>Enquire Now</button>
+    <div class="main">
+        <img src="first img.jpg" class="img1">
+        <img src="middle img.jpg" class="img2">
+        <img src="last img.jpg" class="img3">
+    </div>
+</body>
+</html>
